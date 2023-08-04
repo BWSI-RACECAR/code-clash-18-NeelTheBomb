@@ -2,7 +2,7 @@ class Solution:
     def ClockTalker(self, input_time):
             #type input_time: string
             #return type: string
-            print = input_time
+            print(input_time)
             
             #TODO: Write code below to return a string with the solution to the prompt.
             pass
