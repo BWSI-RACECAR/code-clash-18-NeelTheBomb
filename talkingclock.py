@@ -1,6 +1,6 @@
 class Solution:    
     def ClockTalker(self, input_time):
-            first_dict = {"1": "one:am", "2":"two:am", "3":"three:am", "4":"four:am":"5":"five:am"} 
+            # first_dict = {"1": "one:am", "2":"two:am", "3":"three:am", "4":"four:am":"5":"five:am"} 
             #type input_time: string
             #return type: string
             print(type(input_time))
