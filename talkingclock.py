@@ -13,7 +13,9 @@ class Solution:
             correctpart = first_dict[firstpart]
             firstime, timestamp = correctpart.split(":")
             appendingstring = 0
-            if secondpart[0] == "0":
+            if secondpart[0] == "0" and secondpart[1] == "0":
+                appendingstring = ""
+            elif secondpart[0] == "0":
                 appendingstring = "oh" + normal[secondpart[1]]
             elif secondpart[0] == "1":
                 appendingstring = teen_case[secondpart[1]]
