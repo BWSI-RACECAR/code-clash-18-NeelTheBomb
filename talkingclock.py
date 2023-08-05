@@ -20,7 +20,7 @@ class Solution:
             else:
                 appendingstring  = ty_case[secondpart[0]] + normal[secondpart[1]]
 
-            result = firstime + appendingstring + timestamp
+            result = firstime + " " + appendingstring " " + timestamp
             return result
             
                 
